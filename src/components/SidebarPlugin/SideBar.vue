@@ -6,15 +6,12 @@
     <div class="sidebar-wrapper">
       <div class="logo">
         <a href="#" class="simple-text logo__container">
-            <div class="logo-img" style="
-           height: 60px;
-            width: 60px;
-            ">
+            
                 <img src="img/logo.png" alt style="
-                max-width: 56px;">
-            </div>
+                max-width: 56px; margin-right: 5px;">
+            
           {{title}}
-        </a>
+        </a> 
       </div>
 
       <slot name="content"></slot>
@@ -47,7 +44,7 @@
     props: {
       title: {
         type: String,
-        default: 'Bibila'
+        default: "Tex'style Good'izy"
       },
       backgroundColor: {
         type: String,

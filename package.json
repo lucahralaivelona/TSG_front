@@ -13,12 +13,14 @@
     "lint-fix": "vue-cli-service lint --fix"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.1.0",
     "axios": "^1.7.2",
     "bootstrap": "4.6.0",
     "cache-loader": "^4.1.0",
     "chart.js": "^4.4.3",
     "chartist": "0.11.0",
     "core-js": "^3.37.1",
+    "dayjs": "^1.11.19",
     "google-maps": "3.2.1",
     "regenerator-runtime": "^0.14.1",
     "register-service-worker": "1.7.2",
@@ -27,9 +29,11 @@
     "vue": "2.7.14",
     "vue-js-modal": "^2.0.1",
     "vue-router": "3.0.2",
+    "vue-virtual-scroller": "^1.1.2",
     "vue2-google-maps": "0.10.7"
   },
   "devDependencies": {
+    "@vercel/node": "^5.5.15",
     "@vue/cli-plugin-babel": "^5.0.8",
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-pwa": "^5.0.8",

@@ -9,7 +9,7 @@
         </ul>
       </nav>
       <div class="copyright text-center">
-        &copy; Développé par Lucah Ralaivelona, Onitiana Ralisoa et Sylvano.       
+        &copy; Développé par Lucah Ralaivelona.      
         
       </div>
     </div>

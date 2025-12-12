@@ -617,7 +617,7 @@ export default {
   width: 100%;
   background: #fff;
   padding: 25px 30px;
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 .container .title {

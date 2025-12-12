@@ -6,7 +6,7 @@
         <ul class="nav navbar-nav mr-auto"></ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#" class="nav-link" @click="deconnexion">Se déconnecter</a>
+            <a href="#"  class="nav-link" @click="logout">Se déconnecter</a>
           </li>
         </ul>
       </div>
@@ -14,7 +14,9 @@
   </nav>
 </template>
 <script>
+  import authService from '../services/auth';
 export default {
+
   computed: {
     routeName() {
       const { name } = this.$route;
@@ -24,9 +26,14 @@ export default {
   data() {
     return {
       activeNotifications: false,
+         currentUser: null
     };
   },
   methods: {
+     logout() {
+      authService.logout();
+      this.$router.push('/login');
+    },
     capitalizeFirstLetter(string) {
       return string.charAt(0).toUpperCase() + string.slice(1);
     },
